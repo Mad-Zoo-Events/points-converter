@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "convert": "node index.js > markers.json"
+  },
+  "dependencies": {
+    "js-yaml": "^4.0.0"
+  },
+  "name": "point-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adrian Riedel",
+  "license": "MIT"
+}
