@@ -1,13 +1,16 @@
 {
-  "scripts": {
-    "convert": "node index.js > markers.json"
-  },
-  "dependencies": {
-    "js-yaml": "^4.0.0"
-  },
   "name": "point-converter",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "author": "Adrian Riedel",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.0.0",
+    "node-scp": "^0.0.14"
+  },
+  "repository": "git@github.com:Mad-Zoo-Events/points-converter.git"
 }

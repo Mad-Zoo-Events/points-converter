@@ -1,4 +1,5 @@
 node_modules
 
-points.yaml
+points.yml
 markers.json
+conf.json
